@@ -202,7 +202,6 @@ def main() -> None:
     logger.info("# Starting execution of main()")
     logger.info("#####################################\n")
 
-    # TODO: Change this to use your module and your get_byline() function instead
     logger.info(f"Byline: {utils_bankoscarpa.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
