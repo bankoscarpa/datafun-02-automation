@@ -87,7 +87,7 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
 # add options to force lowercase and remove spaces
 #####################################
 
-def create_folders_from_list(folder_list: list) -> None:
+def create_folders_from_list(folder_list: list, to_lowercase: bool = False, remove_spaces: bool = False) -> None:
     '''
     Create folders based on a list of folder names.
     
@@ -125,9 +125,9 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
     logger.info("FUNCTION: create_prefixed_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, prefix = {prefix}")
 
-prefixed_name = [prefix + name for name in folder_list]
+    prefixed_name = [prefix + name for name in folder_list]
 
- for name in prefixed_name:
+    for name in prefixed_name:
         folder_path = ROOT_DIR / name
         folder_path.mkdir(exist_ok=True)
         logger.info(f"Created folder: {folder_path}")
@@ -139,7 +139,7 @@ prefixed_name = [prefix + name for name in folder_list]
 # Pass in the wait time in seconds
 #####################################
 
-def create_folders_periodically(duration_seconds: int) -> None:
+def create_folders_periodically(duration_seconds: int, num_folders: int) -> None:
     '''
     Create folders periodically over time.
 
@@ -159,11 +159,6 @@ def create_folders_periodically(duration_seconds: int) -> None:
         time.sleep(duration_seconds)
         logger.info(f"Waiting for {duration_seconds} seconds before creating the next folder.")
 
-    # TODO: Use a counter or a list to control how many folders to create
-    # TODO: Wait between folder creations using time.sleep()
-    # TODO: Log each wait and creation
-    
-    pass
 
 
 #####################################
@@ -186,7 +181,15 @@ def create_standardized_folders(folder_list: list, to_lowercase: bool = False, r
     logger.info("FUNCTION: create_standardized_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, to_lowercase = {to_lowercase}, remove_spaces = {remove_spaces}")
 
-    pass
+    for name in folder_list:
+        folder_name = name
+        if to_lowercase:
+            folder_name = folder_name.lower()
+        if remove_spaces:
+            folder_name = folder_name.replace(" ", "")
+        folder_path = ROOT_DIR / folder_name
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
   
 #####################################
 # Define a main() function for this module.
@@ -206,17 +209,17 @@ def main() -> None:
     create_folders_for_range(start_year=2020, end_year=2025)
 
     # Call function 2 to create folders given a list
-    folder_names = [REGIONS]
+    folder_names = ["frank", "megan", "zeno"]
     create_folders_from_list(folder_names)
 
     # Call function 3 to create folders using list comprehension
-    folder_names = ['csv', 'excel', 'json']
-    prefix = 'output-'
+    folder_names = ['abc', 'def', 'xyz']
+    prefix = 'before-'
     create_prefixed_folders_using_list_comprehension(folder_names, prefix)
 
     # Call function 4 to create folders periodically using while
-    duration_secs:int = 5  # duration in seconds
-    create_folders_periodically(duration_secs)
+    duration_secs:int = 3  # duration in seconds
+    create_folders_periodically(duration_secs, num_folders = 5)
 
     # Call function 5 to create standardized folders, no spaces, lowercase
     create_standardized_folders(REGIONS, to_lowercase=True, remove_spaces=True)

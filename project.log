@@ -651,3 +651,228 @@ Mean Satisfaction Score:    4.80
 2025-09-03 14:43:49.696 | INFO     | __main__:main:220 - # Completed execution of main()
 2025-09-03 14:43:49 | INFO | __main__:221 | #####################################
 2025-09-03 14:43:49.696 | INFO     | __main__:main:221 - #####################################
+2025-09-03 15:10:19 | INFO | utils_bankoscarpa:47 | Logger loaded.
+2025-09-03 15:10:19 | INFO | __main__:37 | Logger loaded.
+2025-09-03 15:10:19.083 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-03 15:15:40 | INFO | utils_bankoscarpa:47 | Logger loaded.
+2025-09-03 15:15:40 | INFO | __main__:37 | Logger loaded.
+2025-09-03 15:15:40.440 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-03 15:16:58 | INFO | utils_bankoscarpa:47 | Logger loaded.
+2025-09-03 15:16:58 | INFO | __main__:37 | Logger loaded.
+2025-09-03 15:16:58.868 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-03 15:20:32 | INFO | utils_bankoscarpa:47 | Logger loaded.
+2025-09-03 15:20:32 | INFO | __main__:37 | Logger loaded.
+2025-09-03 15:20:32.554 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-03 15:20:32 | INFO | __main__:201 | #####################################
+2025-09-03 15:20:32.554 | INFO     | __main__:main:201 - #####################################
+2025-09-03 15:20:32 | INFO | __main__:202 | # Starting execution of main()
+2025-09-03 15:20:32.554 | INFO     | __main__:main:202 - # Starting execution of main()
+2025-09-03 15:20:32 | INFO | __main__:203 | #####################################
+
+2025-09-03 15:20:32.554 | INFO     | __main__:main:203 - #####################################
+
+2025-09-03 15:20:32 | INFO | __main__:206 | Byline: 
+**********************************************************
+Frankly Figures — Project Header
+**********************************************************
+Author:                     Frank Scarpa
+Motto:                      Making Numbers Talk
+Years Active:               5
+Number of Employees:        25
+Office Locations:           ['Phoenix', 'Washington DC', 'Sunrise', 'Austin', 'San Francisco']
+Salary Position?:           True
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-03 15:20:32.554 | INFO     | __main__:main:206 - Byline: 
+**********************************************************
+Frankly Figures — Project Header
+**********************************************************
+Author:                     Frank Scarpa
+Motto:                      Making Numbers Talk
+Years Active:               5
+Number of Employees:        25
+Office Locations:           ['Phoenix', 'Washington DC', 'Sunrise', 'Austin', 'San Francisco']
+Salary Position?:           True
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-03 15:20:32 | INFO | __main__:73 | FUNCTION: create_folders_for_range()
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_for_range:73 - FUNCTION: create_folders_for_range()
+2025-09-03 15:20:32 | INFO | __main__:74 | PARAMETERS: start_year = 2020, end_year = 2025
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_for_range:74 - PARAMETERS: start_year = 2020, end_year = 2025
+2025-09-03 15:20:32 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2020
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2020
+2025-09-03 15:20:32 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2021
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2021
+2025-09-03 15:20:32 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2022
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2022
+2025-09-03 15:20:32 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2023
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2023
+2025-09-03 15:20:32 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2024
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2024
+2025-09-03 15:20:32 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2025
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2025
+2025-09-03 15:20:32 | INFO | __main__:98 | FUNCTION: create_folders_from_list()
+2025-09-03 15:20:32.554 | INFO     | __main__:create_folders_from_list:98 - FUNCTION: create_folders_from_list()
+2025-09-03 15:20:32 | INFO | __main__:99 | PARAMETER: folder_list = ['frank', 'megan', 'zeno']
+2025-09-03 15:20:32.555 | INFO     | __main__:create_folders_from_list:99 - PARAMETER: folder_list = ['frank', 'megan', 'zeno']
+2025-09-03 15:20:32 | INFO | __main__:104 | Created folder: /Users/frankchess/Repos/datafun-02-automation/frank
+2025-09-03 15:20:32.555 | INFO     | __main__:create_folders_from_list:104 - Created folder: /Users/frankchess/Repos/datafun-02-automation/frank
+2025-09-03 15:20:32 | INFO | __main__:104 | Created folder: /Users/frankchess/Repos/datafun-02-automation/megan
+2025-09-03 15:20:32.555 | INFO     | __main__:create_folders_from_list:104 - Created folder: /Users/frankchess/Repos/datafun-02-automation/megan
+2025-09-03 15:20:32 | INFO | __main__:104 | Created folder: /Users/frankchess/Repos/datafun-02-automation/zeno
+2025-09-03 15:20:32.555 | INFO     | __main__:create_folders_from_list:104 - Created folder: /Users/frankchess/Repos/datafun-02-automation/zeno
+2025-09-03 15:20:32 | INFO | __main__:125 | FUNCTION: create_prefixed_folders()
+2025-09-03 15:20:32.555 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:125 - FUNCTION: create_prefixed_folders()
+2025-09-03 15:20:32 | INFO | __main__:126 | PARAMETERS: folder_list = ['abc', 'def', 'xyz'], prefix = before-
+2025-09-03 15:20:32.555 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:126 - PARAMETERS: folder_list = ['abc', 'def', 'xyz'], prefix = before-
+2025-09-03 15:20:32 | INFO | __main__:133 | Created folder: /Users/frankchess/Repos/datafun-02-automation/before-abc
+2025-09-03 15:20:32.555 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:133 - Created folder: /Users/frankchess/Repos/datafun-02-automation/before-abc
+2025-09-03 15:20:32 | INFO | __main__:133 | Created folder: /Users/frankchess/Repos/datafun-02-automation/before-def
+2025-09-03 15:20:32.555 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:133 - Created folder: /Users/frankchess/Repos/datafun-02-automation/before-def
+2025-09-03 15:20:32 | INFO | __main__:133 | Created folder: /Users/frankchess/Repos/datafun-02-automation/before-xyz
+2025-09-03 15:20:32.555 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:133 - Created folder: /Users/frankchess/Repos/datafun-02-automation/before-xyz
+2025-09-03 15:21:46 | INFO | utils_bankoscarpa:47 | Logger loaded.
+2025-09-03 15:21:46 | INFO | __main__:37 | Logger loaded.
+2025-09-03 15:21:46.219 | INFO     | __main__:<module>:37 - Logger loaded.
+2025-09-03 15:21:46 | INFO | __main__:201 | #####################################
+2025-09-03 15:21:46.219 | INFO     | __main__:main:201 - #####################################
+2025-09-03 15:21:46 | INFO | __main__:202 | # Starting execution of main()
+2025-09-03 15:21:46.219 | INFO     | __main__:main:202 - # Starting execution of main()
+2025-09-03 15:21:46 | INFO | __main__:203 | #####################################
+
+2025-09-03 15:21:46.219 | INFO     | __main__:main:203 - #####################################
+
+2025-09-03 15:21:46 | INFO | __main__:206 | Byline: 
+**********************************************************
+Frankly Figures — Project Header
+**********************************************************
+Author:                     Frank Scarpa
+Motto:                      Making Numbers Talk
+Years Active:               5
+Number of Employees:        25
+Office Locations:           ['Phoenix', 'Washington DC', 'Sunrise', 'Austin', 'San Francisco']
+Salary Position?:           True
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-03 15:21:46.219 | INFO     | __main__:main:206 - Byline: 
+**********************************************************
+Frankly Figures — Project Header
+**********************************************************
+Author:                     Frank Scarpa
+Motto:                      Making Numbers Talk
+Years Active:               5
+Number of Employees:        25
+Office Locations:           ['Phoenix', 'Washington DC', 'Sunrise', 'Austin', 'San Francisco']
+Salary Position?:           True
+Accepting New Clients?:     True
+Remote Workshops?:          True
+Services:                   ['Data Analysis', 'Machine Learning', 'Business Intelligence']
+Client Satisfaction Scores: [4.8, 4.6, 4.9, 5.0, 4.7]
+Minimum Satisfaction Score: 4.6
+Maximum Satisfaction Score: 5.0
+Mean Satisfaction Score:    4.80
+     Standard Deviation:    0.16
+**********************************************************
+
+2025-09-03 15:21:46 | INFO | __main__:73 | FUNCTION: create_folders_for_range()
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_for_range:73 - FUNCTION: create_folders_for_range()
+2025-09-03 15:21:46 | INFO | __main__:74 | PARAMETERS: start_year = 2020, end_year = 2025
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_for_range:74 - PARAMETERS: start_year = 2020, end_year = 2025
+2025-09-03 15:21:46 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2020
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2020
+2025-09-03 15:21:46 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2021
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2021
+2025-09-03 15:21:46 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2022
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2022
+2025-09-03 15:21:46 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2023
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2023
+2025-09-03 15:21:46 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2024
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2024
+2025-09-03 15:21:46 | INFO | __main__:80 | Created folder: /Users/frankchess/Repos/datafun-02-automation/2025
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_for_range:80 - Created folder: /Users/frankchess/Repos/datafun-02-automation/2025
+2025-09-03 15:21:46 | INFO | __main__:98 | FUNCTION: create_folders_from_list()
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_from_list:98 - FUNCTION: create_folders_from_list()
+2025-09-03 15:21:46 | INFO | __main__:99 | PARAMETER: folder_list = ['frank', 'megan', 'zeno']
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_from_list:99 - PARAMETER: folder_list = ['frank', 'megan', 'zeno']
+2025-09-03 15:21:46 | INFO | __main__:104 | Created folder: /Users/frankchess/Repos/datafun-02-automation/frank
+2025-09-03 15:21:46.219 | INFO     | __main__:create_folders_from_list:104 - Created folder: /Users/frankchess/Repos/datafun-02-automation/frank
+2025-09-03 15:21:46 | INFO | __main__:104 | Created folder: /Users/frankchess/Repos/datafun-02-automation/megan
+2025-09-03 15:21:46.220 | INFO     | __main__:create_folders_from_list:104 - Created folder: /Users/frankchess/Repos/datafun-02-automation/megan
+2025-09-03 15:21:46 | INFO | __main__:104 | Created folder: /Users/frankchess/Repos/datafun-02-automation/zeno
+2025-09-03 15:21:46.220 | INFO     | __main__:create_folders_from_list:104 - Created folder: /Users/frankchess/Repos/datafun-02-automation/zeno
+2025-09-03 15:21:46 | INFO | __main__:125 | FUNCTION: create_prefixed_folders()
+2025-09-03 15:21:46.220 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:125 - FUNCTION: create_prefixed_folders()
+2025-09-03 15:21:46 | INFO | __main__:126 | PARAMETERS: folder_list = ['abc', 'def', 'xyz'], prefix = before-
+2025-09-03 15:21:46.220 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:126 - PARAMETERS: folder_list = ['abc', 'def', 'xyz'], prefix = before-
+2025-09-03 15:21:46 | INFO | __main__:133 | Created folder: /Users/frankchess/Repos/datafun-02-automation/before-abc
+2025-09-03 15:21:46.220 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:133 - Created folder: /Users/frankchess/Repos/datafun-02-automation/before-abc
+2025-09-03 15:21:46 | INFO | __main__:133 | Created folder: /Users/frankchess/Repos/datafun-02-automation/before-def
+2025-09-03 15:21:46.220 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:133 - Created folder: /Users/frankchess/Repos/datafun-02-automation/before-def
+2025-09-03 15:21:46 | INFO | __main__:133 | Created folder: /Users/frankchess/Repos/datafun-02-automation/before-xyz
+2025-09-03 15:21:46.220 | INFO     | __main__:create_prefixed_folders_using_list_comprehension:133 - Created folder: /Users/frankchess/Repos/datafun-02-automation/before-xyz
+2025-09-03 15:21:46 | INFO | __main__:149 | FUNCTION: create_folders_periodically()
+2025-09-03 15:21:46.220 | INFO     | __main__:create_folders_periodically:149 - FUNCTION: create_folders_periodically()
+2025-09-03 15:21:46 | INFO | __main__:150 | PARAMETER: duration_seconds = 3
+2025-09-03 15:21:46.220 | INFO     | __main__:create_folders_periodically:150 - PARAMETER: duration_seconds = 3
+2025-09-03 15:21:46 | INFO | __main__:157 | Created folder: /Users/frankchess/Repos/datafun-02-automation/folder_3
+2025-09-03 15:21:46.220 | INFO     | __main__:create_folders_periodically:157 - Created folder: /Users/frankchess/Repos/datafun-02-automation/folder_3
+2025-09-03 15:21:49 | INFO | __main__:160 | Waiting for 3 seconds before creating the next folder.
+2025-09-03 15:21:49.221 | INFO     | __main__:create_folders_periodically:160 - Waiting for 3 seconds before creating the next folder.
+2025-09-03 15:21:49 | INFO | __main__:157 | Created folder: /Users/frankchess/Repos/datafun-02-automation/folder_4
+2025-09-03 15:21:49.222 | INFO     | __main__:create_folders_periodically:157 - Created folder: /Users/frankchess/Repos/datafun-02-automation/folder_4
+2025-09-03 15:21:52 | INFO | __main__:160 | Waiting for 3 seconds before creating the next folder.
+2025-09-03 15:21:52.223 | INFO     | __main__:create_folders_periodically:160 - Waiting for 3 seconds before creating the next folder.
+2025-09-03 15:21:52 | INFO | __main__:157 | Created folder: /Users/frankchess/Repos/datafun-02-automation/folder_5
+2025-09-03 15:21:52.223 | INFO     | __main__:create_folders_periodically:157 - Created folder: /Users/frankchess/Repos/datafun-02-automation/folder_5
+2025-09-03 15:21:55 | INFO | __main__:160 | Waiting for 3 seconds before creating the next folder.
+2025-09-03 15:21:55.228 | INFO     | __main__:create_folders_periodically:160 - Waiting for 3 seconds before creating the next folder.
+2025-09-03 15:21:55 | INFO | __main__:181 | FUNCTION: create_standardized_folders()
+2025-09-03 15:21:55.229 | INFO     | __main__:create_standardized_folders:181 - FUNCTION: create_standardized_folders()
+2025-09-03 15:21:55 | INFO | __main__:182 | PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-03 15:21:55.229 | INFO     | __main__:create_standardized_folders:182 - PARAMETERS: folder_list = ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East'], to_lowercase = True, remove_spaces = True
+2025-09-03 15:21:55 | INFO | __main__:192 | Created folder: /Users/frankchess/Repos/datafun-02-automation/northamerica
+2025-09-03 15:21:55.230 | INFO     | __main__:create_standardized_folders:192 - Created folder: /Users/frankchess/Repos/datafun-02-automation/northamerica
+2025-09-03 15:21:55 | INFO | __main__:192 | Created folder: /Users/frankchess/Repos/datafun-02-automation/southamerica
+2025-09-03 15:21:55.230 | INFO     | __main__:create_standardized_folders:192 - Created folder: /Users/frankchess/Repos/datafun-02-automation/southamerica
+2025-09-03 15:21:55 | INFO | __main__:192 | Created folder: /Users/frankchess/Repos/datafun-02-automation/europe
+2025-09-03 15:21:55.230 | INFO     | __main__:create_standardized_folders:192 - Created folder: /Users/frankchess/Repos/datafun-02-automation/europe
+2025-09-03 15:21:55 | INFO | __main__:192 | Created folder: /Users/frankchess/Repos/datafun-02-automation/asia
+2025-09-03 15:21:55.230 | INFO     | __main__:create_standardized_folders:192 - Created folder: /Users/frankchess/Repos/datafun-02-automation/asia
+2025-09-03 15:21:55 | INFO | __main__:192 | Created folder: /Users/frankchess/Repos/datafun-02-automation/africa
+2025-09-03 15:21:55.230 | INFO     | __main__:create_standardized_folders:192 - Created folder: /Users/frankchess/Repos/datafun-02-automation/africa
+2025-09-03 15:21:55 | INFO | __main__:192 | Created folder: /Users/frankchess/Repos/datafun-02-automation/oceania
+2025-09-03 15:21:55.230 | INFO     | __main__:create_standardized_folders:192 - Created folder: /Users/frankchess/Repos/datafun-02-automation/oceania
+2025-09-03 15:21:55 | INFO | __main__:192 | Created folder: /Users/frankchess/Repos/datafun-02-automation/middleeast
+2025-09-03 15:21:55.230 | INFO     | __main__:create_standardized_folders:192 - Created folder: /Users/frankchess/Repos/datafun-02-automation/middleeast
+2025-09-03 15:21:55 | INFO | __main__:227 | 
+#####################################
+2025-09-03 15:21:55.230 | INFO     | __main__:main:227 - 
+#####################################
+2025-09-03 15:21:55 | INFO | __main__:228 | # Completed execution of main()
+2025-09-03 15:21:55.230 | INFO     | __main__:main:228 - # Completed execution of main()
+2025-09-03 15:21:55 | INFO | __main__:229 | #####################################
+2025-09-03 15:21:55.230 | INFO     | __main__:main:229 - #####################################
