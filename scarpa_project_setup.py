@@ -17,6 +17,7 @@ Author: Frank Scarpa
 # Import from the Python Standard library
 import pathlib
 import sys      
+import time
 
 # Import packages from requirements.txt
 import loguru   
@@ -77,8 +78,6 @@ def create_folders_for_range(start_year: int, end_year: int) -> None:
         year_path = ROOT_DIR / str(year)
         year_path.mkdir(exist_ok=True)
         logger.info(f"Created folder: {year_path}")
-
-create_folders_for_range(2020, 2025)
   
 #####################################
 # Define Function 2. For Item in List: 
@@ -99,12 +98,10 @@ def create_folders_from_list(folder_list: list) -> None:
     logger.info("FUNCTION: create_folders_from_list()")
     logger.info(f"PARAMETER: folder_list = {folder_list}")
 
-    # TODO: Loop through the list of folder names
-    # TODO: For each name, create a folder using ROOT_DIR / name
-    # TODO: Log a message each time a folder is created
-
-    pass
-
+    for name in folder_list:
+        folder_path = ROOT_DIR / name
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
 
   
 #####################################
@@ -128,11 +125,12 @@ def create_prefixed_folders_using_list_comprehension(folder_list: list, prefix: 
     logger.info("FUNCTION: create_prefixed_folders()")
     logger.info(f"PARAMETERS: folder_list = {folder_list}, prefix = {prefix}")
 
-    # TODO: Implement this function professionally and remove the temporary pass.
-    # TODO: Use a list comprehension to create the folder names.
-    pass
+prefixed_name = [prefix + name for name in folder_list]
 
-  
+ for name in prefixed_name:
+        folder_path = ROOT_DIR / name
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
 
 #####################################
 # Define Function 4. While Loop: 
@@ -151,7 +149,16 @@ def create_folders_periodically(duration_seconds: int) -> None:
     logger.info("FUNCTION: create_folders_periodically()")
     logger.info(f"PARAMETER: duration_seconds = {duration_seconds}")
     
-    # TODO: Import time module from the Standard Library at the top if needed
+    counter = 3
+    while counter <= num_folders:
+        folder_name = f"folder_{counter}"
+        folder_path = ROOT_DIR / folder_name
+        folder_path.mkdir(exist_ok=True)
+        logger.info(f"Created folder: {folder_path}")
+        counter += 1
+        time.sleep(duration_seconds)
+        logger.info(f"Waiting for {duration_seconds} seconds before creating the next folder.")
+
     # TODO: Use a counter or a list to control how many folders to create
     # TODO: Wait between folder creations using time.sleep()
     # TODO: Log each wait and creation
@@ -196,10 +203,10 @@ def main() -> None:
     logger.info(f"Byline: {utils_bankoscarpa.get_byline()}")
 
     # Call function 1 to create folders for a range (e.g. years)
-    create_folders_for_range(start_year=2020, end_year=2023)
+    create_folders_for_range(start_year=2020, end_year=2025)
 
     # Call function 2 to create folders given a list
-    folder_names = ['data-csv', 'data-excel', 'data-json']
+    folder_names = [REGIONS]
     create_folders_from_list(folder_names)
 
     # Call function 3 to create folders using list comprehension
