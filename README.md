@@ -1,4 +1,7 @@
 # datafun-02-automation
+
+
+# Sept 3: I added functions going through lists, folder creations, and created some for and while loops. 
 # Pro Analytics 01: Setup and Workflow Guide
 
 This repository provides a clear, concise guide to help set up a machine for Python projects, 
